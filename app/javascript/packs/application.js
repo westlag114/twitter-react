@@ -15,7 +15,7 @@
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 
-import App from "./src/components/routes";
+import App from "./src/routes";
 import React from "react";
 import ReactDOM from "react-dom";
 

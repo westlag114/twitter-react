@@ -1,7 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
-import Sample from './sample'
+import Sample from './components/sample'
 
 const App = () => {
   return (

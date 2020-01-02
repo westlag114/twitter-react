@@ -14,3 +14,7 @@
 //
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
+
+import routes from "./src/components/routes";
+
+routes();

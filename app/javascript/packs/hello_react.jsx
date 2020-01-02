@@ -4,5 +4,5 @@ import Sample from './src/components/sample'
 
 ReactDOM.render(
     <Sample/>,
-    document.getElementById('sample')
+    document.getElementById('root')
 );

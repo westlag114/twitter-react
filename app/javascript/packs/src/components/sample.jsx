@@ -5,7 +5,7 @@ export default class Sample extends React.Component {
   render() {
     return (
         <div>
-          <p>aaaa</p>
+          <p>iiiii</p>
         </div>
     );
   }

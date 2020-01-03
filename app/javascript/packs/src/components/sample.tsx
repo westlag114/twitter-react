@@ -26,6 +26,12 @@ export default class Sample extends React.Component<SampleProps, SampleState> {
       });
   }
   render() {
-    return <div>{this.state.users}</div>;
+    return (
+      <div>
+        {this.state.users.map((user: { name: string }) => {
+          return <p>{user.name}</p>;
+        })}
+      </div>
+    );
   }
 }

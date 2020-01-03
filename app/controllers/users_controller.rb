@@ -1,7 +1,9 @@
 class UsersController < ApplicationController
   def index
-    @user = User.all
-    render json: @user
+    users = User.all
+
+    @users = users.map(&:to_resource)
+    render json: @users
   end
 
   def create

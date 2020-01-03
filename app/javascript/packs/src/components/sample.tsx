@@ -1,13 +1,6 @@
 import * as React from 'react';
 import axios from 'axios';
 
-// axios.get("/users/index").then(res => )
-// const Sample: React.FC = () => (
-//   <div>messages block</div>
-// );
-
-// export default Sample
-
 interface SampleProps {}
 
 interface SampleState {

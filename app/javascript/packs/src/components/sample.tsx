@@ -10,12 +10,15 @@ interface SampleState {
 export default class Sample extends React.Component<SampleProps, SampleState> {
   constructor(props: SampleProps) {
     super(props);
+    this.state = {
+      users: []
+    };
     this.getUser();
   }
 
   getUser() {
     axios
-      .get('users/index')
+      .get('/api/v1/users')
       .then(res =>
         this.setState({
           users: res.data

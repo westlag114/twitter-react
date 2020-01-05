@@ -4,7 +4,7 @@ import axios from 'axios';
 interface SampleProps {}
 
 interface SampleState {
-  users: any;
+  users: { id: number; name: string }[];
 }
 
 export default class Sample extends React.Component<SampleProps, SampleState> {

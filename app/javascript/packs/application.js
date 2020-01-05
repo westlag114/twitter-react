@@ -17,5 +17,6 @@
 import App from './src/routes';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import '../stylesheets/application';
 
 ReactDOM.render(<App />, document.getElementById('root'));

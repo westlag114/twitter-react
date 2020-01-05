@@ -33,7 +33,7 @@ export default class Sample extends React.Component<SampleProps, SampleState> {
       <div>
         {this.state.users.map(user => {
           return (
-            <p>
+            <p className="Users__Text">
               {user.id}:{user.name}
             </p>
           );
